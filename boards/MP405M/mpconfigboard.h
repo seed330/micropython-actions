@@ -66,10 +66,9 @@
 #define MICROPY_HW_USRSW_EXTI_MODE  (GPIO_MODE_IT_FALLING)
 #define MICROPY_HW_USRSW_PRESSED    (0)
 
-// The board has 3 LEDs
+// The board led 
 #define MICROPY_HW_LED1             (pin_B5) // green
-#define MICROPY_HW_LED2             (pin_B6) // green
-#define MICROPY_HW_LED3             (pin_B7) // red
+
 
 // USB config
 #define MICROPY_HW_USB_FS              (1)

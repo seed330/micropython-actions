@@ -4,9 +4,6 @@
 #define MICROPY_HW_HAS_SWITCH       (0)
 #define MICROPY_HW_HAS_FLASH        (1)
 #define MICROPY_HW_HAS_SDCARD       (0)
-#define MICROPY_HW_HAS_MMA7660      (0)
-#define MICROPY_HW_HAS_LCD          (0)
-#define MICROPY_HW_ENABLE_RNG       (1)
 #define MICROPY_HW_ENABLE_RTC       (0)
 #define MICROPY_HW_ENABLE_SERVO     (1)
 #define MICROPY_HW_ENABLE_DAC       (0)
@@ -22,7 +19,7 @@
 #define MICROPY_HW_CLK_LAST_FREQ (1)
 
 // The pyboard has a 32kHz crystal for the RTC
-#define MICROPY_HW_RTC_USE_LSE      (0)
+#define MICROPY_HW_RTC_USE_LSE      (1)
 #define MICROPY_HW_RTC_USE_US       (0)
 #define MICROPY_HW_RTC_USE_CALOUT   (1)
 

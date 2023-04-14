@@ -68,7 +68,10 @@
 
 // The board led 
 #define MICROPY_HW_LED1             (pin_B5) // green
-
+#define MICROPY_HW_LED2             (pin_B6) // green
+#define MICROPY_HW_LED3             (pin_B7) // green
+#define MICROPY_HW_LED_ON(pin)      (mp_hal_pin_low(pin))
+#define MICROPY_HW_LED_OFF(pin)     (mp_hal_pin_high(pin))
 
 // USB config
 #define MICROPY_HW_USB_FS              (1)

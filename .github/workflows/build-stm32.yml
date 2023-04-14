@@ -18,7 +18,7 @@ on:
       custom-board:
         description: 'custom-board'
         required: false
-        default: 'STEPM'
+        default: 'MP405M'
       build-with:
         description: 'build-with'
         required: false

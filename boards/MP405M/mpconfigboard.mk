@@ -1,5 +1,5 @@
 MCU_SERIES = f4
-CMSIS_MCU = STM32F405xx
+CMSIS_MCU = STM32F411xE
 MICROPY_FLOAT_IMPL = double
 AF_FILE = boards/stm32f405_af.csv
 ifeq ($(USE_MBOOT),1)
